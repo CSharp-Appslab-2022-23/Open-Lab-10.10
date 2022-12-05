@@ -6,7 +6,10 @@ namespace Open_Lab_10._00
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worlsd!");
+            Book LOTR = new Book();
+            LOTR.title = "POL";
+            Console.WriteLine(LOTR.title);
         }
     }
+   
 }
